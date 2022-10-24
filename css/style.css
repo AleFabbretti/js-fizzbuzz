@@ -23,3 +23,10 @@ main:first-child{
     margin-top: 25px;
     margin-bottom: 25px;
 }
+
+.table{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+}
