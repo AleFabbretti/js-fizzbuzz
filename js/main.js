@@ -5,7 +5,7 @@ Per i numeri che sono sia multipli di 3 che di 5 stampi “FizzBuzz”.
 */
 
 for(let i = 1; i <= 100; i++){
-        if (i % 3 === 0 && i % 5 == 0){
+        if (i % 3 == 0 && i % 5 == 0){
         //se il numero che stampo è multiplo di 3 e 5 stampo FizzBuzz
             console.log("FizzBuzz");
         }else if(i % 3 == 0){
@@ -16,7 +16,7 @@ for(let i = 1; i <= 100; i++){
             console.log("Buzz");
         }else{
         //se nessuna delle condizioni sopra stampo il numero corrispondente ad i
-        console.log("i");
+        console.log(i);
         }
     }
 //1. Scriviamo sempre prima dei commenti in italiano per capire cosa vogliamo fare
