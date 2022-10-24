@@ -30,3 +30,13 @@ main:first-child{
     flex-wrap: wrap;
     width: 100%;
 }
+
+.col{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+    margin-bottom: 15px;
+    font-size: 15px;
+    width: 100% / 7;
+}
