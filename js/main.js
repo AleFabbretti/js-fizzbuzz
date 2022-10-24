@@ -5,6 +5,10 @@ Per i numeri che sono sia multipli di 3 che di 5 stampi “FizzBuzz”.
 */
 
 for(let i = 1; i <= 100; i++){
+    //creo un div e gli assegno una classe
+        const div = document.createElement(`div`);
+        div.classList.add ("col");
+        
         if (i % 3 == 0 && i % 5 == 0){
         //se il numero che stampo è multiplo di 3 e 5 stampo FizzBuzz
             console.log("FizzBuzz");
