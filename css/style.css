@@ -38,5 +38,21 @@ main:first-child{
     padding: 50px 0;
     margin-bottom: 15px;
     font-size: 15px;
-    width: 100% / 7;
+    width: calc(90% / 7);
+}
+
+.col-fizz-buzz{
+    background-color: #f0466f;
+}
+
+.col-fizz{
+    background-color: #0cd6a1;
+}
+
+.col-buzz{
+    background-color: #ffd166;
+}
+
+.col-number{
+    background-color: #1389b2;
 }

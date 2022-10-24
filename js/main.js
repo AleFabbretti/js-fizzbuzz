@@ -8,24 +8,34 @@ const table = document.getElementById("table");
 for(let i = 1; i <= 100; i++){
     //creo un div e gli assegno una classe
         const div = document.createElement(`div`);
-        div.classList.add ("col");
+        div.classList.add("col");
 
         if (i % 3 == 0 && i % 5 == 0){
     //se il numero che stampo è multiplo di 3 e 5 stampo FizzBuzz
-            console.log("FizzBuzz");
+            div.classList.add("col-fizz-buzz");
+            // console.log("FizzBuzz");
+            div.innerHTML = "FizzBuzz"
+            table.append(div);
         }else if(i % 3 == 0){
     //se il numero che stampo è multiplo di 3 stampo Fizz
-            console.log("Fizz");
-        }else if(i % 5 === 0){
+            div.classList.add("col-fizz");
+            // console.log("Fizz");
+            div.innerHTML = "Fizz";
+            table.append(div);
+        }else if(i % 5 == 0){
     //se il numero che stampo è multiplo di 5 stampo Buzz
-            console.log("Buzz");
+            div.classList.add("col-buzz");
+            // console.log("Buzz");
+            div.innerhtml = "buzz";
+            table.append(div);
         }else{
     //se nessuna delle condizioni sopra stampo il numero corrispondente ad i
-        console.log(i);
+            console.log(i);
+            div.classList.add("col-number");
+            div.innerHTML = i;
+            table.append(div);
         }
     }
-//1. Scriviamo sempre prima dei commenti in italiano per capire cosa vogliamo fare
 
-//2. Proviamo ad immaginare le operazioni che vogliamo far svolgere al nostro programma così come lo faremmo "a mano"
 
 
