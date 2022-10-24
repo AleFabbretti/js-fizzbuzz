@@ -26,7 +26,7 @@ for(let i = 1; i <= 100; i++){
     //se il numero che stampo è multiplo di 5 stampo Buzz
             div.classList.add("col-buzz");
             // console.log("Buzz");
-            div.innerhtml = "buzz";
+            div.innerHTML = "Buzz";
             table.append(div);
         }else{
     //se nessuna delle condizioni sopra stampo il numero corrispondente ad i
