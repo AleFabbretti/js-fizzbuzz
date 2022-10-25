@@ -28,7 +28,7 @@ h1{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    width: 100%;
+    max-width: 1000px;
     color: black;
 }
 
